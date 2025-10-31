@@ -7,8 +7,6 @@ public class H2_main {
 		i = 5;
 		j = 76;
 		k = 1;
-		min = 45;
-		max = 34;
 
 		min = i;
 		if (min > j) {
@@ -27,7 +25,9 @@ public class H2_main {
 		if (max < k) {
 			max = k;
 		}
-
+		
+//		System.out.println("Minimum: " + min);
+//		System.out.println("Maximum: " + max);
 	}
 
 }

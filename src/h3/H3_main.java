@@ -6,14 +6,14 @@ public class H3_main {
 		int i, j, k;
 		i = 34;
 		j = 12;
-		k = 56;
-
+		k = -10;
+		
 		boolean ausdruck1, ausdruck2, ausdruck3;
 		ausdruck1 = i > j;
 		ausdruck2 = i > 200;
 		ausdruck3 = j > 100;
 
-		k = -10;
+
 
 		if (ausdruck1 && !ausdruck2 && !ausdruck3) {
 			k = 1;
@@ -30,6 +30,8 @@ public class H3_main {
 		if (!ausdruck1 && !ausdruck2 && !ausdruck3) {
 			k = 4;
 		}
+		
+//		System.out.println(k);
 	}
 
 }
